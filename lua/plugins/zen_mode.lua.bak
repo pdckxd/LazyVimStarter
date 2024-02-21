@@ -1,0 +1,5 @@
+-- NOTE: disable this since it makes neo-tree not happy
+return {
+  "folke/zen-mode.nvim",
+  event = "VeryLazy",
+}

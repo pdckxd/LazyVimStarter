@@ -1,0 +1,9 @@
+return {
+  { "pdckxd/base16-vim", commit = "052608cc8dfa93cd548d10898d34013a1917ec73" },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "base16-irblack",
+    },
+  },
+}

@@ -16,6 +16,9 @@ return {
     -- change VM Theme
     vim.api.nvim_set_var("VM_theme", "neon")
 
+    -- enable mouse
+    vim.api.nvim_set_var("VM_mouse_mappings", 1)
+
     --NOTE: pause illuminate when enter VM, enable illuminate when exit VM
     vim.cmd([[
       autocmd User visual_multi_start  IlluminatePause

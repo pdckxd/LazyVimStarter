@@ -46,4 +46,7 @@ vim.keymap.set(
   { silent = true, desc = "Previous Diagnostic", noremap = true }
 )
 -- <leader>lg to show grep window
-vim.keymap.set("n", "<leader>lg", "<cmd>Telescope live_grep<CR>", { silent = true, desc = "Grep", noremap = true })
+-- vim.keymap.set("n", "<leader>lg", "<cmd>Telescope live_grep<CR>", { silent = true, desc = "Grep", noremap = true })
+
+-- unmap built-in <leader>l
+vim.keymap.del("n", "<leader>l")

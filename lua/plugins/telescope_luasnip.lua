@@ -10,7 +10,7 @@ return {
   end,
   keys = {
     {
-      "<leader>sn",
+      "<leader>sns",
       function()
         require("telescope").extensions.luasnip.luasnip()
       end,

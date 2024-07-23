@@ -1,5 +1,5 @@
 return {
-  "normen/vim-pio",
+  "jormen/vim-pio",
   event = "VeryLazy",
   init = function() end,
 }

@@ -45,6 +45,15 @@ vim.keymap.set(
   "<cmd>lua vim.diagnostic.goto_prev()<CR>",
   { silent = true, desc = "Previous Diagnostic", noremap = true }
 )
+-- <leader>sm to show all vim-bookmarks
+vim.keymap.set(
+  "n",
+  "<leader>sm",
+  "<cmd>lua require('telescope').extensions.vim_bookmarks.all()<CR>",
+  { silent = true, desc = "Show all vim-bookmarks", noremap = true }
+)
+-- <leader>fG to show fugitive Git window
+vim.keymap.set("n", "<leader>fG", "<cmd>Git<CR>", { silent = true, desc = "OPen Fugitive", noremap = true })
 -- <leader>lg to show grep window
 -- vim.keymap.set("n", "<leader>lg", "<cmd>Telescope live_grep<CR>", { silent = true, desc = "Grep", noremap = true })
 

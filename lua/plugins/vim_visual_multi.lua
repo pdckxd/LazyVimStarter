@@ -26,7 +26,7 @@ return {
     vim.api.nvim_create_autocmd({ "User" }, {
       pattern = "visual_multi_start",
       callback = function()
-        vim.cmd([[IlluminatePause]])
+        -- vim.cmd([[IlluminatePause]])
         require("lualine").hide()
       end,
     })
@@ -34,7 +34,7 @@ return {
       pattern = "visual_multi_exit",
       callback = function()
         require("lualine").hide({ unhide = true })
-        vim.cmd([[IlluminateResume]])
+        -- vim.cmd([[IlluminateResume]])
       end,
     })
     -- vim.cmd([[

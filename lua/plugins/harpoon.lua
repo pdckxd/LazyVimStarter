@@ -10,7 +10,7 @@ return {
     {
       "<c-x>e",
       "<cmd>lua require('harpoon.mark').add_file()<cr>",
-      desc = "Switch Harpoon Buff",
+      desc = "Add current file to Harpoon buffer list",
     },
     {
       "<c-x>d",

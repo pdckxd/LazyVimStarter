@@ -53,7 +53,7 @@ vim.keymap.set(
   { silent = true, desc = "Show all vim-bookmarks", noremap = true }
 )
 -- <leader>fG to show fugitive Git window
-vim.keymap.set("n", "<leader>fG", "<cmd>Git<CR>", { silent = true, desc = "OPen Fugitive", noremap = true })
+vim.keymap.set("n", "<leader>fG", "<cmd>Git<CR>", { silent = true, desc = "Open Fugitive", noremap = true })
 -- <leader>lg to show grep window
 -- vim.keymap.set("n", "<leader>lg", "<cmd>Telescope live_grep<CR>", { silent = true, desc = "Grep", noremap = true })
 

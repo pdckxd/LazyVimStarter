@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   keys = {
     {
-      "<leader>fg",
+      "<leader>gF",
       "<cmd>Git<CR>",
       desc = "Open Fugitive",
     },

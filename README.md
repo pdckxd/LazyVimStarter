@@ -36,8 +36,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
         1. In `VM` mode:
             * `n` to select next occurrence, `N` to select prev occurrence.
             * `q` to de-select current selected occurrence.
-            * `\A` to select all occurrence in buffer
             * `\` is VM leader, hit it to show whichkey menu for VM plugin
+            * `\A` to select all occurrence in buffer
+            * `\/` to start regexp search
     2. __normal mode__: `<M-C-Down>` to Select Cursor Down
     3. __normal mode__: `<M-C-Up>` to Select Cursor Up
 10. cheatsheet.nvim
@@ -48,3 +49,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
         * `ma` show all vim-bookmarks in quicklist window
     2. __normal mode__: `mm` toggle the vim-bookmark
     3. __normal mode__: `mi` annotate the vim-bookmark
+12. cheat.sh-vim
+    1. __normal mode__: `<leader>KP` Past the answer below your question
+    2. __normal mode__: `<leader>KB` get the answer on a special buffer
+    3. __normal mode__: `<leader>KC` Replay last query, toggling comments
+    4. __normal mode__: `<leader>KR` Replace your question by the answer
+    5. __normal mode__: `<leader>KE` Replace your question by the answer

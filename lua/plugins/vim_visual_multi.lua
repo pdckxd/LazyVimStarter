@@ -10,14 +10,14 @@ return {
     vm_maps_table["Find Subword Under"] = "<C-G>"
     vm_maps_table["Add Cursor Down"] = ""
     vm_maps_table["Add Cursor Up"] = ""
-    vm_maps_table["Select Cursor Down"] = "<M-C-Down>"
-    vm_maps_table["Select Cursor Up"] = "<M-C-Up>"
-    -- vm_maps_table['Select Cursor Down'] = '<M-Down>'
-    -- vm_maps_table['Select Cursor Up'] = '<M-Up>'
+    -- vm_maps_table["Select Cursor Down"] = "<M-C-Down>"
+    -- vm_maps_table["Select Cursor Up"] = "<M-C-Up>"
+    vm_maps_table["Select Cursor Down"] = "<M-Down>"
+    vm_maps_table["Select Cursor Up"] = "<M-Up>"
     vim.api.nvim_set_var("VM_maps", vm_maps_table)
 
     -- change VM Theme
-    vim.api.nvim_set_var("VM_theme", "neon")
+    vim.api.nvim_set_var("VM_theme", "nord")
 
     -- enable mouse
     vim.api.nvim_set_var("VM_mouse_mappings", 1)

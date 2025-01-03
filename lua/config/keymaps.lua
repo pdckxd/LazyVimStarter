@@ -58,7 +58,7 @@ vim.keymap.set("n", "<leader>fG", "<cmd>Git<CR>", { silent = true, desc = "Open 
 -- vim.keymap.set("n", "<leader>lg", "<cmd>Telescope live_grep<CR>", { silent = true, desc = "Grep", noremap = true })
 --
 -- customized toggleterm keymaps
-vim.keymap.set("t", "<esc>", [[<C-\><C-N>]], { silent = true, desc = "Exit to norm", noremap = true })
+vim.keymap.set("t", "<esc><esc>", [[<C-\><C-N>]], { silent = true, desc = "Exit to norm", noremap = true })
 
 -- unmap built-in <leader>l
 vim.keymap.del("n", "<leader>l")
